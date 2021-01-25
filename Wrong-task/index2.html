@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style>
+      body{background-color: #94000c;
+      background: linear-gradient(to left top, #99797b, #94000c);
+    }
+    .a{
+      /*background-color: rgba(220,220,220,1);*/
+      padding: 40px;
+      margin: 10px;
+      background: linear-gradient(to top, rgb(80,80,80), white);
+    }
+    .b{
+      background-color: rgba(180,180,180,1);
+      padding: 15px;
+      margin: 10px;
+      background: linear-gradient(to top,rgba(100,100,100,1), white);
+      border:1px solid black;
+    }
+    h1{text-align: center;}
+    span{font-weight: bold;}
+      span.c{color:red;font-size:50px;}
+      span.o{color:green;font-size:30px;}
+      span.m{color:darkblue;font-size:50px;}
+      span.p{color:pink;font-size:30px;}
+      span.i{color:purple;font-size:50px;}
+      span.l{color:black;font-size:30px;}
+      span.e{color:orange;font-size:50px;}
+      span.r{color:rgba(150,30,100,.8);font-size:30px;}
+    table{
+      width:80%;
+      border:3px solid #b8000c;
+      background-color:  rgba(10,10,10,.8);
+      text-align: center;
+      font-weight: bold;
+      margin-left: 10%;
+    }
+    thead{
+      background-color:rgba(20,20,20,1);
+      color:white;
+    }
+    tbody{
+      background-color:#f6ff00;
+      color:black;
+    }
+    tfoot{
+      background-color:#003699;
+      color:rgb(200,200,200);
+    }
+    th{
+      border:3px dashed #f2d322;
+      padding:10px;
+      margin: 300px;
+    }
+    td{
+      border:3px dashed #b51467;
+      padding:10px;
+    }
+    fieldset,fieldset.a{
+        background:white;
+        padding: 10px;
+        margin: 10px;
+      }
+    legend{
+      background-color:white;
+      padding:10px;
+      font-weight: bold;
+      color:darkred;
+      border:1px solid green;
+    }
+    label{
+      margin-left: 3%;
+      font-weight:bold;
+      color:blue;
+    }
+    fieldset.a input{
+      margin-left: 2%;
+      display:block;
+      margin-top: 5px;
+    }
+    input{
+      margin-left: 2%;
+      margin-right: .5%;
+      margin-top: 5px;
+    }
+
+    .sss > td{
+
+    }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="a">
+      <h1 style="text-align:center">a special quotes makes your life</h1>
+      <div class="b">
+        <blockquote>
+          <p>There are <mark>only two ways</mark> to live your life. <ins>One is as though nothing is a miracle.</ins><del style="color:darkred">The other is as though everything is a miracle.</del>
+          </p>
+        </blockquote>
+        <q>Albert Einstein</q>
+      </div>
+
+      <div class="b">
+        <blockquote>
+          The important thing is not to stop questioning. Curiosity has its own reason for existence. One cannot help but be in awe when he contemplates the mysteries of eternity, of life, of the marvelous structure of reality. It is enough if one tries merely to comprehend a little of this mystery each day.
+          <br><mark style="background-color:rgba(200,70,80,.85);"><q>Old Man's Advice to Youth: 'Never Lose a Holy Curiosity.' </q> LIFE Magazine (2 nd of May 1955)   p.64</mark>
+        </blockquote>
+        <q>Albert Einstein</q>
+      </div>
+    </div>
+
+    <div class="a">
+      <p style="color:purple; text-align:center;"><b>This is a table</b></p>
+      <table>
+        <thead>
+          <th>old team</th>
+          <th>Abubar</th>
+          <th>Fareed</th>
+          <th>Yassa</th>
+          <th>Aya</th>
+          <th>Rana</th>
+        </thead>
+        <tbody>
+          <tr class="sss">
+            <td>specification</td>
+            <td>front-end developer</td>
+            <td>back-end developer</td>
+            <td>back-end developer</td>
+            <td>front-end developer</td>
+            <td>front-end developer</td>
+          </tr>
+
+        </tbody>
+        <tfoot>
+          <td>working with</td>
+          <td>Vue.js</td>
+          <td>python</td>
+          <td>php</td>
+          <td>html5,css3,jQuery</td>
+          <td>html5,css3,jQuery</td>
+        </tfoot>
+      </table>
+
+        <p style="color:#540037; text-align:center;"><b>Web-team sections</b></p>
+
+      <table class="sec" style="background:linear-gradient(to left,white,black);">
+        <thead>
+          <th colspan="2" style="margin:50%">programming</th>
+          <td colspan="3" style="background-color:#f6ff00;color:black; border:3px dashed black;">webDesign</td>
+        </thead>
+        <tbody>
+          <th style="background-color:rgba(20,20,20,1);color:white;">php</th>
+          <th style="background-color:rgba(20,20,20,1);color:white;">mySQL</th>
+          <td style="border:3px dashed black;">html</td>
+          <td style="border:3px dashed black;">css</td>
+          <td style="border:3px dashed black;">jQuery</td>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="a">
+      <h1>
+        <span class="c"> c </span>
+        <span class="o"> o </span>
+        <span class="m"> m </span>
+        <span class="p"> p </span>
+        <span class="i"> i </span>
+        <span class="l"> l </span>
+        <span class="e"> e </span>
+        <span class="r"> r </span>
+      </h1>
+
+      <div class="b">
+        <form>
+          <fieldset class="a">
+            <legend>Personal info</legend>
+              <label for="">Username</label>
+                <input type="text" name="" value="" placeholder="Type your name..."><br>
+              <label for="">Password</label>
+                <input type="password" name="" value="" placeholder="Enter your Password..."></input><br>
+            <input type="checkbox" name="" value="" style="display:inline">
+            <label for="" style="margin-left:-1px;">Remember me</label>
+          </fieldset>
+
+          <fieldset>
+            <legend>Other info</legend>
+              <label for="">Gender</label><br>
+                <input type="radio" name="gender">Male<br>
+                <input type="radio" name="gender">Female<hr>
+              <label>Browser</label><br>
+                <input type="radio" name="gender">Firefox<br>
+                <input type="radio" name="gender">Chrome<br>
+                <input type="radio" name="gender">Safari<hr>
+              <label>Profile image</label>
+                <input type="file" name="" value="" style="display:block"><hr>
+              <label>Leave a message for us</label>
+                <textarea cols="40" rows="10" style="display:block; margin-left:2%;" placeholder="Write your message..."></textarea>
+          </fieldset>
+
+          <fieldset>
+            <legend>Deal with infos</legend>
+              <select>
+                <optgroup label="Remaining days of the week">
+                <option disabled>Saturday</option>
+                <option disabled>Sunday</option>
+                <option disabled>Moday</option>
+                <option>Tuseday</option>
+                <option>Wednesday</option>
+                <option>Thursday</option>
+                <option>Friday</option>
+              </select>
+              <input type="submit"><input type="reset" style="margin-left:-.5px">
+          </fieldset>
+        </form>
+      </div>
+    </div>
+
+    <div  class="a">
+      <iframe src="..\..\..\task-sorce.html" width="90%" height="1000px" style="margin-left:5%; border:5px solid red"></iframe>
+    </div>
+
+    <div class="a">
+      <h1>An example for a div code</h1>
+      <h2>&lt;div class="num_div"&gt;</h2>
+      <h2 style="margin-left:4%"> type the here</h2>
+      <h2 style="margin-bottom:-1%">&lt;/div&gt;</h2>
+    </div>
+
+    <div class="a">
+      <h1>copyrights© &copy; for compiler team&nbsp;.</h1>
+    </div>
+  </body>
+</html>
