@@ -40,9 +40,9 @@ div.card > img{
 div.card{
   width: 30%;
   height:500px;
-  display:inline;
+  /*display:inline;*/
   text-align: center;
-  border:3px solid green;
+  border:3px solid pink;
 }
 
 .card h3,.card p{text-transform: capitalize;}
