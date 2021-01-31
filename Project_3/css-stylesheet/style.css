@@ -40,7 +40,8 @@ div.card > img{
 div.card{
   width: 30%;
   height:500px;
-  /*display:inline;*/
+  margin: 10px;
+  display:inline-block;
   text-align: center;
   border:3px solid pink;
 }
