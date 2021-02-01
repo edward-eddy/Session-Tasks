@@ -1,51 +1,102 @@
+*{box-sizing:border-box;}
 body{margin: 0}
 
-div.navbar{
-  height:55px;
+.navbar{
+  height:60px;
   width:100%;
   padding: 10px ;
-  margin-top: -130px;
+  margin-top: -100px;  /*div-navbar margin*/
   margin-bottom: 10px;
   position: fixed;
-  background-color: #444
+  background-color: #333
 }
 
-div.navbarbtm > a:hover{background-color: black;}
-div.navbarbtm > a.left:hover{background-color: #383;}
+.navbarbtm > a:hover{background-color: black;}
+.navbarbtm > a.left:hover{background-color: #383;}
 
-div.navbarbtm > a{
+.navbarbtm > a{
   display: inline-block;
   float: right;
   color:white;
-  padding:17px;
+  padding:12px;
   font-weight: bold;
-  font-size: 18px;
+  font-size: 15px;
+  font-family: "Times New Roman";
   text-decoration:none;
   text-align: center;
 }
 
-div.navbarbtm > a.left{
+.navbarbtm > a.left{
   float: left;
   background-color: #494;
-  padding:17px;
 }
 
-div.pic{margin-top: 130px;}
+.pic{
+  /*margin-top: 110px;  div-navbar margin*/
+  margin:100px 0%;
+}
 
-div.card > img{
-  height: 300px;
-  max-width: 50%;
-  margin:12.5% 25% 0; }
+.card > img{
+  height: 270px;
+  max-width: 75%;
+  min-width: 75%;
+  margin:12.5% 12.5% 15px; }
 
-div.card{
+.card{
   width: 30%;
-  height:500px;
-  margin: 10px;
+  height:455px;
+  background:linear-gradient(to top, #222,#a40000 );
+  margin: 1.5%;
   display:inline-block;
   text-align: center;
-  border:3px solid pink;
+  /*border:3px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  border-image-source: linear-gradient(to top, #222,#a40000 )*/
 }
 
-.card h3,.card p{text-transform: capitalize;}
+.card h3,.card p{
+  text-transform: capitalize;
+  color:white;
+}
+
 .card p{display: none;}
-div.card:hover + p{display: block;}
+.card:hover p{display: block;}
+
+p.div{
+  padding:26px;
+  margin:auto;
+  margin-top: 90px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: gray;
+  text-transform:uppercase;
+}
+.bg1{
+  height: 250px;
+  padding: 100px;
+  background: url(../imgs/241279.jpg) no-repeat top fixed ;
+  background-size: 100% 100%;
+  box-sizing: content-box;
+}
+
+.bg2{
+  height: 250px;
+  margin: 100px 0;
+  padding: 110px;
+  box-sizing: content-box;
+
+  background: url(../imgs/thumb-1920-667209.jpg) no-repeat center fixed ;
+  background-size: 120% 100%;
+}
+
+.bg2 > .ared, .ablue{
+  padding:21px;
+  margin: 6px;
+  color:lightgray;
+  font-size: 120%;
+  font-weight: 500;
+}
+.ared{background-color: rgba(200,10,10,.60);direction: rtl;}
+.ablue{background-color: rgba(10,10,200,.60);direction: ltr;}
