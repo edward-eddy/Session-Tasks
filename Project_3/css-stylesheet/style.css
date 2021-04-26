@@ -12,7 +12,7 @@ body{margin: 0}
 }
 
 .navbarbtm > a:hover{background-color: black;}
-.navbarbtm > a.left:hover{background-color: #383;}
+.navbarbtm > a.left:hover{background-color: none;}
 
 .navbarbtm > a{
   display: inline-block;
@@ -82,12 +82,12 @@ p.div{
 }
 
 .bg2{
-  height: 250px;
+  height: auto;
   margin: 100px 0;
   padding: 110px;
   box-sizing: content-box;
 
-  background: url(../imgs/thumb-1920-667209.jpg) no-repeat center fixed ;
+  background: url(../imgs/pP9nooH.jpg) no-repeat center fixed ;
   background-size: 120% 100%;
 }
 
