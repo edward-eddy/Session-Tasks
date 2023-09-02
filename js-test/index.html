@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <title>Edward-css-2-project</title>
+    <link rel="stylesheet" href=" Stylesheet/style.css">
+  </head>
+
+  <body>
+    <input type="text" id="n1" name="" value="">
+    <input type="text" id="n2" name="" value="">
+    <input type="button" name="button" onclick="multy()"value="Equal"></button>
+
+    <script>
+      function multy() {
+        var x = document.getElementById("n1").value;
+        var y = document.getElementById("n2").value;
+        if (typeof(x) !="number" || typeof(y) != "number") {
+          console.log("type nuumber");
+        }
+        else {
+          console.log(x*y);
+        }
+      }
+    </script>
+
+
+  </body>

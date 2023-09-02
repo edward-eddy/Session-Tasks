@@ -1,0 +1,188 @@
+*{
+  box-sizing:border-box;
+  font-family: cursive;
+  list-style-type: none;
+  transition: .5s;
+}
+body{
+  margin: 0
+}
+.navbar{
+  position: fixed;
+  float: inherit;
+  background: rgb(60,60,60);
+  width: 100%;
+  height:55px;
+  margin: 0;
+  top:0;
+  padding: 0px;
+  display: block;
+  z-index: 1;
+}
+.navbar ul{
+  list-style-type: none;
+  text-align: right;
+  margin: 7px 0;
+  padding-left: 5px
+}
+.navbar > ul > li{
+  margin: 0 15px;
+  padding: 8px;
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  color:#fff;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+li.left > a{
+  background: rgb(237, 241, 3);
+  color:black;
+  text-align: center;
+  margin: 0px;
+  padding: 7.5px 16px;
+  border-radius: 20px;
+  font-size: 18px;
+}
+
+li.left{
+height:40px;
+width:70px;
+margin: 0 10px !important;
+float: left;
+}
+
+.snav > a{
+  float:left;
+  position: fixed;
+  display:block;
+  margin-left: -150px;  /*to -40 */
+  display: block;
+  padding: 10px 54px;
+  border-radius:20px;
+  width:175px;
+  top:25px;
+  z-index: 1;
+}
+#about{
+  margin-top: 70px;
+  background: rgba(75, 185, 75, 1);
+}
+#blog{
+  margin-top: 123px;
+  background: rgb(55, 55, 160);
+}
+#projects{
+  margin-top: 176px;
+  background: rgba(160, 45, 45, 1);
+}
+#contact{
+  margin-top: 229px;
+  background: rgba(255, 210, 55, 1);
+}
+.snav>a:hover{
+  margin-left: -40px;
+  transition:.35s
+}
+
+.sp{
+  margin: 85px 55px;
+}
+dl{
+font-weight: bold;
+font-size: 17px
+}
+dt{
+  width:100%;
+  background:black;
+  color:white;
+  padding: 10px;
+  margin: 0;
+  display: block;
+  position: sticky;
+  top: 55px;
+}
+dd{
+  display: block;
+  margin: 7px;
+  margin-inline-start: 40px;
+}
+
+div.of{
+  width: 100%;
+  height: auto;
+  padding: 30px;
+  background: url(../img/bg.jpg) fixed no-repeat;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+.of > p{
+  margin: 100px;
+  padding: 14px;
+  height: auto;
+  max-height: 43px;
+  overflow: hidden;
+  background: rgba(210,75,95,1);
+}
+.of p:hover {
+  max-height: 200px;
+    transition:1s
+}
+.of:hover:after{
+  content: "This div has been hoverd";
+    text-align: center;
+  background: rgba(255, 0, 0, 0.5);
+  padding: 50px;
+  display: block;
+}
+.parent{
+  background: url(../imgs/3cd18a522c89a7188aee42284eb2efdc.jpg) fixed no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+}
+.dchild{
+  background: rgba(200,30,30,.6);
+  margin: 20px;
+  padding: 20px;
+}
+.dchild > h3{
+    margin-left: 20px;
+}
+ul{
+   padding-left: 0px;
+}
+div.ul > ul > li{
+  padding:15px;
+  margin: 20px;
+  background: rgba(30, 230, 30, 0.6) ;
+  transition: 1.5s
+
+}
+.fchild{
+  background: rgba(120, 50, 255,.6)!important
+}
+ .ul  li.sebling:hover ~ .sebling {
+  background: rgba(100, 100, 100,.7);
+  transition: 1.5s
+}
+.fl{
+  background: url(F:/Session/Git-Hub/Project_4/imgs/241279.jpg) fixed;
+  background-size: cover;
+  width: 100%;
+  margin: 40px 0;
+  padding: 20px;
+  color:white;
+}
+.fl p:first-letter{
+  font-size:200%;
+  background-color:red;
+  border-radius:50%;
+  padding: 5px;
+}
+.fl p::first-line{
+  background:gray;
+}

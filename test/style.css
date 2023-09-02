@@ -1,0 +1,10 @@
+li{
+  background: yellow
+}
+li:hover ~ li {
+  background: red;
+  transition: all 3s ease-in-out;
+}
+.a:hover ul:after{
+  content: url("eee")
+}
